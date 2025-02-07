@@ -156,8 +156,4 @@ def classify_number(number = None):
         "digit_sum": sum(int(digit) for digit in str(abs(converted_number)) if digit.isdigit()),
         "fun_fact": get_fun_fact(converted_number),
     }
-
-# Run Server
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+    
