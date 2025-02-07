@@ -80,7 +80,7 @@ def classify_number(number = None):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=5000)from fastapi import FastAPI, Query, HTTPException, Request
-from typing import Union
+    from typing import Union
 import requests
 from fastapi.responses import JSONResponse
 
